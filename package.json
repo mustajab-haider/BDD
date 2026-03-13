@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A beautiful animated birthday wish card built with React + Vite + Tailwind CSS",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
