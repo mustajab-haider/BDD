@@ -1,43 +1,16 @@
 {
   "name": "birthday-wish-card",
   "version": "1.0.0",
-  "description": "A beautiful animated birthday wish card built with React + Vite + Tailwind CSS",
-  "homepage": "https://birthday-wish-card.vercel.app",
   "type": "module",
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "lint": "echo 'No linting configured'",
-    "type-check": "echo 'No TypeScript configured'",
-    "lighthouse": "lhci autorun",
-    "test": "echo 'No tests configured yet'",
-    "prepare": "husky install"
-  },
-  "keywords": [
-    "react",
-    "vite",
-    "tailwindcss",
-    "birthday",
-    "animation",
-    "card",
-    "vercel"
-  ],
-  "author": "Birthday Wish Creator",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/username/birthday-wish-card"
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@lhci/cli": "^0.12.0",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
