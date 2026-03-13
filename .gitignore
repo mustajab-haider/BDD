@@ -18,6 +18,9 @@ build/
 # Vite
 .vite/
 
+# Vercel
+.vercel
+
 # IDE and editor files
 .vscode/
 .idea/
